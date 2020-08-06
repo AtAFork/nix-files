@@ -30,7 +30,7 @@
     }) ];
     config = { };
     crossSystem = lib.systems.elaborate lib.systems.examples.raspberryPi;
-    localSystem = { system = "x86_64-linux"; };
+    localSystem = { system = "x86_64-darwin"; };
   };
 
   # Things that don't compile or aren't needed
